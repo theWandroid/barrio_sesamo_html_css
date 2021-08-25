@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat Barrio Sesamo</title>
+
+    <style>
+        html {
+            background-image: url(./images/elmo.png), url(./images/seamless-brick-wall-pattern.png);
+            background-repeat: no-repeat, repeat;
+            background-size: auto, auto;
+            background-position: center 210px;
+        }
+
+        @font-face {
+            font-family: "fuente";
+            src: url(./css/fuente.ttf);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-family: "fuente";
+            width: 50%;
+            min-width: 400px;
+            margin: auto;
+        }
+
+        .container div {
+            background-color: #f007;
+            border: 2px #fff solid;
+            border-radius: 10px;
+            color: #fff;
+            margin-bottom: 20px;
+            transition: 2.5s;
+        }
+
+        h1 {
+            font-size: 5rem;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        li {
+            margin-left: 10px;
+        }
+
+        a {
+            display: block;
+            padding: 15px;
+            background-color: #3f7;
+            color: #fff;
+            border: 5px #ff0 solid;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 10px;
+        }
+
+        .container div:hover {
+            transform: scale(1.4);
+            background-color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Barrio Sesamo</h1>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">image gallery</a></li>
+                <li><a href="">video gallery</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <h2>titulo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui distinctio libero quis error commodi? Non
+                veniam quos ratione ut laborum?</p>
+            <video src="./videos/leon.mp4" controls>Your browser don't support this video</video>
+        </div>
+        <div>
+            <h2>titulo</h2>
+            <p>Maiores nisi numquam laboriosam quaerat sequi temporibus, molestiae, iure quis debitis nulla quasi
+                obcaecati, eius voluptates voluptate consequatur laudantium quia!</p>
+            <audio src="./audio/HakunaMatataItMeansNoWorries.mp3" controls></audio>
+        </div>
+        <div>
+            <h2>titulo</h2>
+            <p>Unde voluptatem, veritatis deleniti iusto corporis quasi ratione odio aperiam sed tempore est quibusdam
+                blanditiis, corrupti totam iste libero repellendus?</p>
+        </div>
+    </div>
+</body>
+
+</html>
